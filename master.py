@@ -19,7 +19,7 @@ conn, addr = s.accept()
 
 print(addr, "is connected to the server")
 targetname = conn.recv(1024)
-print("Host name is: " + targetname.encode())
+print("Host name is: " + targetname.decode())
 print("Commands are:")
 print("1. cmd(string, interger) - runs the command prompt command (string) interger amount of times")
 while True:

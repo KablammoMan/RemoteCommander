@@ -34,6 +34,9 @@ To Use:
 # Current Commands
 
 1. cmd(_string_, _iterations_) -> runs the desired command (_string_) _iterations_ times
+2. explorer() -> opens file explorer
+3. shutdown() -> shuts down the target computer
+4. delete(_string_) -> deletes the desired file or folder (_string_)
 
 # Terms of Use (EULA)
 1. I am not responsible for any trouble (even legal) that you get into for using this program

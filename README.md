@@ -1,5 +1,10 @@
 # _RemoteCommander_
 
+# End User License Agreement
+By using the software provided you automatically agree to the following EULA:
+1. I (KablammoMan) am not responsible for any trouble that you get in (legal, institutional, etc...) for using the software provided, however, if I am caught using it I will accept responsibility for my actions and take whatever punishment is deemed appropriate.
+2. The software is provided as is and I make no guarantees of the software working on all computers at all points in time.
+
 # Description
 
 This is a project that allows you to run pre-determined commands on someone elses computer - if you are on the same network.

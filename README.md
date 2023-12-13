@@ -42,9 +42,3 @@ To Use:
 2. explorer() -> opens file explorer
 3. shutdown() -> shuts down the target computer
 4. delete(_string_) -> deletes the desired file or folder (_string_)
-
-# Terms of Use (EULA)
-1. I am not responsible for any trouble (even legal) that you get into for using this program
-2. It is not my fault if the target computer's antivirus blocks this program
-3. This exact code belongs to me and any use without mentioning this github repository can be used against you in legal cases
-4. You automatically agree to this EULA if you use this code
